@@ -1,0 +1,2 @@
+Esta carpeta contendrá en sub-carpetas los módulos o acciones del sistema 
+y a su vez los archivos que procesan las peticiones del mismo, agregar, actualizar, consultar y borrar (de ser necesario).

@@ -1,0 +1,1 @@
+En esta carpeta contendrá los archivos propios de Control ERA (configuración, funciones, conexiones a base de datos y otros) y en sub-carpetas las tecnologías a utilizar en conjunto
