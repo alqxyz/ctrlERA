@@ -66,10 +66,10 @@ En esta carpeta se almacenará los archivos que procesarán las peticiones del c
 ├── base/
 │   ├── E/
 │   └── R/
-│       ├── act/      (actualizar)
-│       ├── agg/      (agregar)
-│       ├── brr/      (borrar)
-│       ├── con/      (consultar)
+│       ├── actx/      (actualizar)
+│       ├── aggx/      (agregar)
+│       ├── brrx/      (borrar)
+│       ├── conx/      (consultar)
 │       ├─────── Alternativas
 │       ├── sistemaxR/    (módulo de sistema X)
 │       ├── sistemayR/    (módulo de sistema Y)
