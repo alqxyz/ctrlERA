@@ -70,6 +70,7 @@ En esta carpeta se almacenará los archivos que procesarán las peticiones del c
 │       ├── aggx/      (agregar)
 │       ├── brrx/      (borrar)
 │       ├── conx/      (consultar)
+│       ├── obtx/      (obtener)
 │       ├─────── Alternativas
 │       ├── sistemaxR/    (módulo de sistema X)
 │       ├── sistemayR/    (módulo de sistema Y)
