@@ -29,26 +29,22 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\Respuesta\\": "base/R/", // Para clases PHP en la carpeta R. Ejemplo: App\Respuesta\FormularioHandler [cite: 16, 17]
-            "App\\Almacen\\": "base/A/"    // Para clases PHP en la carpeta A. Ejemplo: App\Almacen\BaseDeDatosManager
-            // Puedes ser más específico si es necesario, por ejemplo:
-            // "App\\Respuesta\\Conx\\": "base/R/conx/" // Para clases dentro de base/R/conx/
-            // "App\\Core\\": "src/" // Si decides tener un directorio 'src' para lógica central como un Router en clase.
+            "App\\Respuesta\\": "base/R/", 
+            "App\\Almacen\\": "base/A/" 
+            "App\\Respuesta\\Conx\\": "base/R/conx/" 
+           "App\\Core\\": "src/" 
         }
-        // Si ctrl.php es un script puramente procedural, será incluido directamente por index.php.
-        // Si refactorizas ctrl.php a una clase (ej. App\Core\Router), debería estar bajo un namespace en PSR-4.
+       
     },
-    "minimum-stability": "dev", // Puedes cambiar a "stable" cuando tengas lanzamientos estables.
+    "minimum-stability": "dev", 
     "prefer-stable": true,
     "config": {
         "sort-packages": true
     },
     "scripts": {
-        // Ejemplo de script post-instalación (si usas archivos .env)
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ],
-        // Comandos a ejecutar después de 'composer create-project'
         "post-create-project-cmd": [
             // "php tu-script-de-configuracion-inicial.php"
         ]
