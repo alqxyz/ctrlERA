@@ -19,7 +19,7 @@
         {
             "name": "Nerio Villalobos",
             "email": "alqx.villalobos@gmail.com",
-            "homepage": "https://github.com/alqxyz", // [cite: 19]
+            "homepage": "https://github.com/alqxyz",
             "role": "Creator"
         }
     ],
@@ -46,7 +46,7 @@
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ],
         "post-create-project-cmd": [
-            // "php tu-script-de-configuracion-inicial.php"
+            "php tu-script-de-configuracion-inicial.php"
         ]
     }
 }
