@@ -1,5 +1,5 @@
 {
-    "name": "alqxyz/ctrl-era-app",
+    "name": "alqxyz/ctrl-era",
     "description": "Un esqueleto de proyecto para desarrollo web utilizando el patrón de arquitectura Ctrl ERA. Simple, adaptable y escalable.",
     "type": "project",
     "keywords": [
