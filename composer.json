@@ -30,8 +30,8 @@
     "autoload": {
         "psr-4": {
             "App\\Respuesta\\": "base/R/", 
-            "App\\Almacen\\": "base/A/" 
-            "App\\Respuesta\\Conx\\": "base/R/conx/" 
+            "App\\Almacen\\": "base/A/" ,
+            "App\\Respuesta\\Conx\\": "base/R/conx/" ,
            "App\\Core\\": "src/" 
         }
        
